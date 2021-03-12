@@ -2,4 +2,9 @@ $app_header_height: 64px;
 
 mat-drawer-container {
 	height: calc(100% - #{$app_header_height});
+
+	mat-drawer,
+	mat-drawer-content {
+		padding: 10px;
+	}
 }
